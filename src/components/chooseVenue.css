@@ -1,0 +1,37 @@
+.venue-options-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.prompt {
+    color: whitesmoke;
+    margin: 30px;
+    font-size: 64px;
+    font-family: Be Vietnam Pro;
+}
+.venue-ul {
+    list-style: none;
+    padding: 0;
+
+}
+.venue-li {
+    color: whitesmoke;
+    text-align: center;
+    background-color: rgb(35,35,35);
+    padding: 20px;
+    margin: 10px;
+    border-radius: 3px;
+}
+
+.venue-li:hover {
+    box-shadow: 0px 0px 5px skyblue;
+}
+
+@media (max-width: 600px) {
+    .venue-options-container {
+        justify-content: flex-start;
+    }
+}
